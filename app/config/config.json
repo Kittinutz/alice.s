@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "password",
+    "database": "alicess_db",
+    "host": "db",
+    "dialect": "mariadb"
+  },
+  "test": {
+    "username": "root",
+    "password": "password",
+    "database": "alicess_db",
+    "host": "db",
+    "dialect": "mariadb"
+  },
+  "production": {
+    "username": "root",
+    "password": "password",
+    "database": "alicess_db",
+    "host": "db",
+    "dialect": "mariadb"
+  }
+}
