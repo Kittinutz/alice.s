@@ -9,13 +9,13 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       imageLink: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING(2500)
       },
       name: {
         type: Sequelize.STRING
       },
       linkWebSite: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING(2500)
       },
       priceCNY: {
         type: Sequelize.DECIMAL
